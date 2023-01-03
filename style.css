@@ -26,6 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+[class^="ti-"]:before, [class*=" ti-"]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pollen' !important;
+}
+
 .ti-ux-view-outline:before {
   content: "\e964";
 }
