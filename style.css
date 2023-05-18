@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'pollen';
-  src:  url('fonts/pollen.eot?ddvodw');
-  src:  url('fonts/pollen.eot?ddvodw#iefix') format('embedded-opentype'),
-    url('fonts/pollen.woff2?ddvodw') format('woff2'),
-    url('fonts/pollen.ttf?ddvodw') format('truetype'),
-    url('fonts/pollen.woff?ddvodw') format('woff'),
-    url('fonts/pollen.svg?ddvodw#pollen') format('svg');
+  src:  url('fonts/pollen.eot?nn8try');
+  src:  url('fonts/pollen.eot?nn8try#iefix') format('embedded-opentype'),
+    url('fonts/pollen.woff2?nn8try') format('woff2'),
+    url('fonts/pollen.ttf?nn8try') format('truetype'),
+    url('fonts/pollen.woff?nn8try') format('woff'),
+    url('fonts/pollen.svg?nn8try#pollen') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,11 +24,6 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-[class^="ti-"]:before, [class*=" ti-"]:before {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'pollen' !important;
 }
 
 .ti-ux-view-outline:before {
@@ -241,6 +236,9 @@
 .ti-ux-lock:before {
   content: "\e9aa";
 }
+.ti-ux-divide:before {
+  content: "\e9c6";
+}
 .ti-ux-dashboard-outline:before {
   content: "\e92c";
 }
@@ -379,6 +377,9 @@
 .ti-ux-points:before {
   content: "\e9b4";
 }
+.ti-ux-archive:before {
+  content: "\e9c9";
+}
 .ti-ux-catalog-items-outline:before {
   content: "\e941";
 }
@@ -498,6 +499,15 @@
 }
 .ti-ux-resource-center:before {
   content: "\e9a7";
+}
+.ti-ux-ad-efatura:before {
+  content: "\e9cb";
+}
+.ti-ux-efatura:before {
+  content: "\e9cc";
+}
+.ti-ux-formula:before {
+  content: "\e9ce";
 }
 .ti-ux-iva-outline:before {
   content: "\e932";
@@ -645,6 +655,9 @@
 }
 .ti-ux-big-arrow-left-line:before {
   content: "\e901";
+}
+.ti-ux-big-arrow-right-line:before {
+  content: "\e9cd";
 }
 .ti-ux-arrow-left:before {
   content: "\e629";
