@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'pollen';
-  src:  url('fonts/pollen.eot?nn8try');
-  src:  url('fonts/pollen.eot?nn8try#iefix') format('embedded-opentype'),
-    url('fonts/pollen.woff2?nn8try') format('woff2'),
-    url('fonts/pollen.ttf?nn8try') format('truetype'),
-    url('fonts/pollen.woff?nn8try') format('woff'),
-    url('fonts/pollen.svg?nn8try#pollen') format('svg');
+  font-family: 'pollen-terial-lithium';
+  src:  url('fonts/pollen-terial-lithium.eot?pxj6uw');
+  src:  url('fonts/pollen-terial-lithium.eot?pxj6uw#iefix') format('embedded-opentype'),
+    url('fonts/pollen-terial-lithium.woff2?pxj6uw') format('woff2'),
+    url('fonts/pollen-terial-lithium.ttf?pxj6uw') format('truetype'),
+    url('fonts/pollen-terial-lithium.woff?pxj6uw') format('woff'),
+    url('fonts/pollen-terial-lithium.svg?pxj6uw#pollen-terial-lithium') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,7 +13,7 @@
 
 [class^="ti-"], [class*=" ti-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'pollen' !important;
+  font-family: 'pollen-terial-lithium' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -26,6 +26,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ti-ux-camera-outline:before {
+  content: "\e9cf";
+}
+.ti-ux-edit-outline:before {
+  content: "\e9d0";
+}
+.ti-ux-trash-outline:before {
+  content: "\e9d1";
+}
+.ti-ux-trash:before {
+  content: "\e93a";
+}
 .ti-ux-view-outline:before {
   content: "\e964";
 }
@@ -97,9 +109,6 @@
 }
 .ti-ux-suppliers-fill:before {
   content: "\e95f";
-}
-.ti-ux-trash:before {
-  content: "\e93a";
 }
 .ti-ux-line:before {
   content: "\e906";
@@ -566,6 +575,9 @@
 .ti-ux-file-processing:before {
   content: "\e905";
 }
+.ti-ux-dvr:before {
+  content: "\e9d2";
+}
 .ti-ux-equipment:before {
   content: "\32";
 }
@@ -712,6 +724,9 @@
 }
 .ti-ux-company-deactivated:before {
   content: "\e9a3";
+}
+.ti-ux-badge:before {
+  content: "\e9d3";
 }
 .ti-ux-user:before {
   content: "\e602";
